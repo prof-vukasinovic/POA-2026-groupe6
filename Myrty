@@ -1,3 +1,11 @@
 Je trouve que Myrty c'est un joli nom pour le projet.
 
 Le projet est sous forme MVC (code) + création des niveaux.
+
+Il y a 2 package en plus persistence et service.
+persistence : lire et écrire les données
+service : les règles de gestion de l'application
+
+Contrôleur  ->  Service  ->  Dépôt (interface)  ->  fichier
+ (réagit        (règles)     (stockage)
+  aux clics)
