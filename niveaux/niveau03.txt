@@ -1,0 +1,24 @@
+# NIVEAU 3 - exemple de niveau de type ERREUR (correction d'erreurs)
+# ENONCE contient le code faux. Chaque CORRECTION est une solution acceptée.
+# La comparaison ignore les espaces en trop et les retours à la ligne.
+TYPE: ERREUR
+TITRE: Trouver l'erreur
+LECON: Le compilateur est très strict : un guillemet oublié, un point-virgule manquant ou une faute de frappe dans un mot-clé suffisent à tout bloquer.
+Relis le code ligne par ligne, comme le ferait le compilateur.
+
+---
+CONSIGNE: Ce code ne compile pas. Corrige-le.
+ENONCE:
+int nombre = 5
+System.out.println(nombre);
+CORRECTION:
+int nombre = 5;
+System.out.println(nombre);
+EXPLICATION: Il manquait le point-virgule à la fin de la première ligne.
+
+---
+CONSIGNE: Une faute s'est glissée dans ce code. Corrige-la.
+ENONCE:
+system.out.println("Bravo");
+CORRECTION: System.out.println("Bravo");
+EXPLICATION: Java distingue les majuscules des minuscules : on écrit `System` avec un S majuscule.

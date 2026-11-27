@@ -1,0 +1,27 @@
+# ======================================================================
+# NIVEAU 1 - exemple de niveau de type QCM
+# Format : un en-tête, puis une ligne "---", puis un bloc par question.
+# Une ligne qui commence par # est un commentaire (ignorée).
+# ======================================================================
+TYPE: QCM
+TITRE: Afficher du texte
+LECON: Pour afficher du texte à l'écran, on utilise l'instruction `System.out.println`.
+Le texte à afficher se place entre guillemets et entre parenthèses, et chaque instruction se termine par un point-virgule `;`.
+
+---
+QUESTION: Quelle instruction affiche le mot Bonjour ?
+OPTION: print("Bonjour");
+OPTION: System.out.println("Bonjour");
+OPTION: echo "Bonjour"
+OPTION: System.out.println(Bonjour);
+BONNE: 2
+EXPLICATION: Le texte à afficher est une chaîne de caractères : il doit être entouré de guillemets.
+
+---
+QUESTION: Par quel caractère se termine une instruction Java ?
+OPTION: Un point
+OPTION: Deux points
+OPTION: Un point-virgule
+OPTION: Rien du tout
+BONNE: 3
+EXPLICATION: Le point-virgule `;` indique au compilateur que l'instruction est terminée.

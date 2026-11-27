@@ -1,0 +1,32 @@
+# NIVEAU 2 - exemple de niveau de type TROUS (texte à trous)
+# Dans ENONCE, chaque ___ est un trou. Il faut une ligne REPONSE par trou, dans l'ordre.
+# Pour accepter plusieurs réponses sur un même trou, sépare-les par | .
+TYPE: TROUS
+TITRE: Les variables entières
+LECON: Une variable est une boîte qui porte un nom et contient une valeur.
+Pour déclarer un nombre entier, on écrit son type `int`, son nom, puis on lui donne une valeur avec `=`.
+Exemple : `int age = 15;`
+
+---
+CONSIGNE: Complète le code pour créer une variable entière nommée age qui vaut 15.
+ENONCE: ___ age = 15;
+REPONSE: int
+EXPLICATION: `int` est le type des nombres entiers.
+
+---
+CONSIGNE: Complète le code pour afficher la valeur de la variable.
+ENONCE:
+int score = 10;
+System.out.println(___);
+REPONSE: score
+EXPLICATION: On affiche la valeur de la variable en écrivant son nom, sans guillemets.
+
+---
+CONSIGNE: Complète le code pour que total contienne 8 (plusieurs écritures sont acceptées pour le second trou).
+ENONCE:
+int a = 3;
+int b = 5;
+___ total = ___;
+REPONSE: int
+REPONSE: a + b | b + a
+EXPLICATION: On peut utiliser des variables dans un calcul : `a + b` vaut 8.
