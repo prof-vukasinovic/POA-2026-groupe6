@@ -1,3 +1,4 @@
+I. Explication projet
 Je trouve que Myrty c'est un joli nom pour le projet.
 
 Le projet est sous forme MVC (code) + création des niveaux.
@@ -9,3 +10,10 @@ service : les règles de gestion de l'application
 Contrôleur  ->  Service  ->  Dépôt (interface)  ->  fichier
  (réagit        (règles)     (stockage)
   aux clics)
+
+
+II. Blabla utile
+Il manque : les annotations dans view.
+Je l'ai testé sur mon PC en mettant des niveaux de merde mais il faut en faire des vrais.
+
+PS : Je n'aurais pas de PC ce weekend donc je continuerais les updates lundi.
